@@ -1,0 +1,256 @@
+.container__pr{
+    max-width: 90rem;
+}
+.container__pr h2{
+    padding-left: 5rem;
+    color: #111111;
+    font-family: "Raleway";
+    font-size: 2.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.container__pr__ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin: 30px;
+}
+.container__pr__img{
+    max-width: 22rem;
+}
+.container__pr__p1{
+    color: var(--Gray-1, #333);
+    font-family: "Inter";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.container__pr__h3{
+    color: #111;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.container__pr__p2{
+    color: #333;
+    font-family: "Inter";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.container__pr__p3{
+    color: #1D84B5;
+    font-family: "Inter";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.container__pr__article{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.3rem;
+} 
+@media (min-width: 375px){
+    .container__pr h2{
+        padding: 3rem;
+        color: #111111;
+        font-family: "Raleway";
+        font-size: 2.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    .container__pr__ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 3rem;
+        margin: 30px;
+    }
+    .container__pr__img{
+        max-width: 50rem;
+    }
+    .container__pr__p1{
+        color: var(--Gray-1, #333);
+        font-family: "Inter";
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .container__pr__h3{
+        color: #111;
+        font-family: "Inter", Arial, Helvetica, sans-serif;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .container__pr__p2{
+        color: #333;
+        font-family: "Inter";
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .container__pr__p3{
+        color: #1D84B5;
+        font-family: "Inter";
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .container__pr__article{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0.3rem;
+    }    
+}
+@media (min-width: 500px){
+    .container__pr h2{
+        padding: 3rem;
+        color: #111111;
+        font-family: "Raleway";
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    .container__pr__ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 4rem;
+        margin: 10px;
+    }
+    .container__pr__img{
+        max-width: 32rem;
+    }
+    .container__pr__p1{
+        color: var(--Gray-1, #333);
+        font-family: "Inter";
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .container__pr__h3{
+        color: #111;
+        font-family: "Inter", Arial, Helvetica, sans-serif;
+        font-size: 2.3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .container__pr__p2{
+        color: #333;
+        font-family: "Inter";
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .container__pr__p3{
+        color: #1D84B5;
+        font-family: "Inter";
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .container__pr__article{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0.3rem;
+    }    
+}
+@media (min-width: 1000px){
+    .container__pr h2{
+        color: #111111;
+        font-family: "Raleway";
+        font-size: 2.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    .container__pr__ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 3rem;
+        margin: 30px;
+    }
+    .container__pr__img{
+        max-width: 22rem;
+    }
+    .container__pr__p1{
+        color: var(--Gray-1, #333);
+        font-family: "Inter";
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .container__pr__h3{
+        color: #111;
+        font-family: "Inter", Arial, Helvetica, sans-serif;
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .container__pr__p2{
+        color: #333;
+        font-family: "Inter";
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .container__pr__p3{
+        color: #1D84B5;
+        font-family: "Inter";
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .container__pr__article{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0.3rem;
+    }    
+}

@@ -1,0 +1,360 @@
+@font-face {
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: normal;
+    src: url(../css/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../css/Inter-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.titulo-item {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #1F1F1F;
+    height: 49px;
+    width: 431px;
+    margin-top: 36px;
+    margin-left: 115.55px;
+    margin-bottom: 39.58px;
+    line-height: 49.31px;
+    letter-spacing: 4%;
+    text-align: left;
+}
+
+.label-uno {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29.05px;
+    letter-spacing: 4%;
+    text-align: left;
+    margin-left: 115.55px;
+    margin-bottom: 43.64px;
+}
+
+.select-uno {
+    height: 44.28px;
+    width: 243.03px;
+    border-width: 2px;
+    border-radius: 6px;
+    border-color: #30343F;
+    margin-left: 19.25px;
+    margin-bottom: 36px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    color: #B9B9B9;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    text-indent: 10.95px;
+    background: url('https://api.iconify.design/material-symbols/arrow-drop-down-rounded.svg') no-repeat center right / contain;
+    content: url('https://api.iconify.design/material-symbols/arrow-drop-down-rounded.svg');
+    appearance: none;
+}
+
+.label-dos {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29.05px;
+    letter-spacing: 4%;
+    text-align: left;
+    margin-left: 53.25px;
+    margin-bottom: 43.64px;
+}
+
+.select-dos {
+    height: 44.28px;
+    width: 243.03px;
+    margin-left: 37.06px;
+    margin-bottom: 36px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    color: #B9B9B9;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    text-indent: 10.95px;
+    border-width: 2px;
+    border-radius: 6px;
+    border-color: #30343F;
+    background: url('https://api.iconify.design/material-symbols/arrow-drop-down-rounded.svg') no-repeat center right / contain;
+    content: url('https://api.iconify.design/material-symbols/arrow-drop-down-rounded.svg');
+    appearance: none;
+}
+
+.label-tres {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 115.55px;
+    margin-bottom: 36px;
+    line-height: 29.05px;
+    letter-spacing: 4%;
+    text-align: left;
+}
+
+:-ms-input-placeholder {
+    color: #B9B9B9
+}
+
+input::placeholder{
+    color: #B9B9B9;
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.78px;
+    letter-spacing: 4%;
+}
+
+.input-kakashi {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 296px;
+    height: 22px;
+    margin-left: 18.06px;
+    text-align: left;
+    letter-spacing: 4%;
+    font-weight: 400;
+    margin-bottom: 36.82px;
+    line-height: 21.78px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-color: #FF3333;
+}
+
+.area-texto {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    letter-spacing: 4%;
+    width: 827.63px;
+    height: 194.83px;
+    margin-left: 115.55px;
+    margin-right: 496.82px;
+    margin-bottom: 35.43px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #1F1F1F;
+}
+
+.label-sku {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 115.55px;
+    margin-bottom: 59.88px;
+    line-height: 29.05px;
+    letter-spacing: 4%;
+    text-align: left;
+}
+
+.input-sku {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    letter-spacing: 4%;
+    text-align: left;
+    width: 130.26px;
+    height: 27.36px;
+    margin-left: 8.9px;
+    margin-bottom: 59.88px;
+    border-width: 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-color: #FF3333;
+}
+
+.label-precio {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 56.48px;
+    margin-bottom: 59.88px;
+    line-height: 29.05px;
+    letter-spacing: 4%;
+    text-align: left;
+}
+
+.input-precio {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    letter-spacing: 4%;
+    text-align: left;
+    width: 130.31px;
+    height: 27.36px;
+    margin-left: 13.65px;
+    margin-bottom: 59.88px;
+    border-width: 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-color: #FF3333;
+}
+
+.label-stock {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 41.45px;
+    margin-bottom: 59.88px;
+    line-height: 29.05px;
+    letter-spacing: 4%;
+    text-align: left;
+}
+
+.input-stock {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    letter-spacing: 4%;
+    text-align: left;
+    width: 55px;
+    height: 27.36px;
+    margin-left: 6.35px;
+    margin-bottom: 59.88px;
+    border-width: 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-color: #FF3333;
+}
+
+.label-descuento {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 115.55px;
+    margin-bottom: 59.11px;
+    line-height: 29.05px;
+    letter-spacing: 4%;
+    text-align: left;
+}
+
+.input-descuento {
+    width: 55px;
+    height: 27.36px;
+    margin-left: 8.52px;
+    border-width: 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-color: #FF3333;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    letter-spacing: 4%;
+    text-align: left;
+}
+
+.label-cuotas{
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    width: 93px;
+    height: 29px;
+    margin-left: 23.74;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.05px;
+    letter-spacing: 4%;
+    text-align: left;
+}
+
+.select-cuotas {
+    width: 346px;
+    height: 44px;
+    margin-left: 10.99px;
+    margin-bottom: 47.29px;
+    border-color: #30343F;
+    border-width: 2px;
+    border-radius: 6px;
+    background: url('https://api.iconify.design/material-symbols/arrow-drop-down-rounded.svg') no-repeat center right / contain;
+    content: url('https://api.iconify.design/material-symbols/arrow-drop-down-rounded.svg');
+    appearance: none;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #B9B9B9;
+    text-indent: 15.59px;
+}
+
+.imagenes{
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.05px;
+    letter-spacing: 4%;
+    text-align: left;
+    margin-left: 115.75px;
+    margin-bottom: 36px;
+}
+
+.boton-elegir{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.1px;
+    /* letter-spacing: 4%; */
+    text-align: left;
+    margin-left: 7.97px;
+    margin-bottom: 36px;
+    width: auto;/* 125.24px;*/
+    height: 25.29px;
+    border-width: 1px;
+    border-radius: 3px;
+    /* border-color: #30343FB2 70%; */
+}
+
+.texto-seleccion-archivos{
+    color: #1F1F1F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.2px;
+    letter-spacing: 4%;
+    text-align: left;
+    margin-left: 4.52px;
+    margin-bottom: 36px;
+}
+
+.boton-agregar{
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.94px;
+    color: #FFFFFF;
+    width: 175px;
+    height: 44.33px;
+    margin-left: 115.55px;
+    margin-bottom: 36px;
+    background-color: #FF3333;
+    border: 0;
+}
+
+.boton-limpiar{
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.94px;
+    color: #FFFFFF;
+    width: 175px;
+    height: 44.33px;
+    margin-left: 34.14px;
+    margin-bottom: 36px;
+    background-color: #FF3333;
+    border: 0;
+}

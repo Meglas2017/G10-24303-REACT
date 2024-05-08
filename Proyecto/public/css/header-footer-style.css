@@ -1,0 +1,22 @@
+@font-face {
+  font-family: Raleway;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../css/Raleway-Bold.ttf);
+}
+
+footer {
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+.footer {
+  background-color: #30343f;
+  padding: 68px;
+}
+
+.footer__copy {
+  margin-top: 56.81px;
+  margin-bottom: 23px;
+  text-align: center;
+}
