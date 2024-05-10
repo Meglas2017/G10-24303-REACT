@@ -558,14 +558,7 @@ iconify-icon {
 }
 
 /*FOOTER*/
-.footer {
-  background-color: #30343f;
-  padding: 68px;
-  width: 100vw;
-}
-
 .footer__copy {
-  margin-top: 36px;
   text-align: center;
 }
 /*---Estilo de ADMIN Mobile First---*/
