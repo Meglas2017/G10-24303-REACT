@@ -1,14 +1,12 @@
 import { useState, useEffect } from "react"
 import { bd } from "../utils/firebase"
-import { collection, getDocs, addDoc } from "@firebase/firestore";
+import { collection, getDocs } from "@firebase/firestore";//addDocs importar para usar modulo de creacion de BBDD
 import { FunkosCard } from "./FunkosCard";
-import { backAPI } from "../utils/backAPI";
-import { misfunkos } from "../utils/bd";
 
 export const FunkosGrid = () => {
     const [data, setData] = useState()
 
-    // const cargarUsuario = async (funkoss) => {
+    // const cargarUsuario = async (funkoss) => { // Cargo en FIREBASE la base de datos de funkos
     //     try {
     //       // Agrega un nuevo documento a la colección "users"
     //         const docRef = await addDoc(collection(bd, "funkos"), funkoss);
