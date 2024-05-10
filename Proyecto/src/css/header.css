@@ -1,5 +1,5 @@
 /*HEADER*/
-header {
+header,footer {
   background-color: #30343f;
   padding: 36px;
   display: flex;
