@@ -6,12 +6,12 @@ body{
     position: relative;
 }
 footer {
-    position: fixed; /* o absolute */
-    bottom: 0;
+    position: absolute; /* o absolute */
+    /* bottom: 0; */
     width: 100%;
   }
   #root {
-    min-height: 100vh;
+    /* min-height: 100vh; */
   }
 .aside_filtros{
     margin: 3rem;

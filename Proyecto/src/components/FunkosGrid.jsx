@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import { bd } from "../utils/firebase"
 import { collection, getDocs } from "@firebase/firestore";//addDocs importar para usar modulo de creacion de BBDD
 import { FunkosCard } from "./FunkosCard";
+import { FunkosAside } from "./FunkosAside";
 
 export const FunkosGrid = () => {
     const [data, setData] = useState()
@@ -39,6 +40,8 @@ export const FunkosGrid = () => {
 
 
     return(
+        <>
+        <FunkosAside/>
         <section className="container__shop__section">
             {data?data.map((dato, index) => (
                 // Renderiza los datos usando map()
@@ -46,5 +49,6 @@ export const FunkosGrid = () => {
             )):null}
             
         </section>
+        </>
     )
 }
