@@ -1,7 +1,7 @@
 
 
 
-export const FunkosAside = () => {
+export const FunkosAside = ({onChange}) => {
 
 
 
@@ -11,7 +11,7 @@ export const FunkosAside = () => {
                     <div className="container__shop__div">
                         <label htmlFor="search">BUSCAR</label>
                         <input className="container__shop__input" type="text" name="search" id="search"
-                            placeholder="item o  categoria"/>
+                            placeholder="item o  categoria" onChange={(e) => onChange(e.target.value)}/>
                     </div>
                     <div className="container__shop__div">
                         <label htmlFor="sort">ORDENAR POR</label>

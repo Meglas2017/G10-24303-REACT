@@ -6,6 +6,7 @@ import { FunkosAside } from "./FunkosAside";
 
 export const FunkosGrid = () => {
     const [data, setData] = useState()
+    // const [filtros, setFiltros] = useState()
 
     // const cargarUsuario = async (funkoss) => { // Cargo en FIREBASE la base de datos de funkos
     //     try {
@@ -22,8 +23,7 @@ export const FunkosGrid = () => {
         const probando = async () => {
             try {
                 const firulo = await getDocs(collection(bd, "funkos"));
-                // const firulo = await backAPI("")
-                const newData = firulo.docs.map(doc => doc.data()); //Mapear para obtener el nuevo array y pasarselo a la funcion setData
+                const newData = firulo.docs.map(doc => ({ id: doc.id, ...doc.data() })); //Mapear para obtener el nuevo array y pasarselo a la funcion setData
                 setData(newData)
                 console.log(newData);
                 
@@ -37,15 +37,17 @@ export const FunkosGrid = () => {
           
     }, [])
     
-
+    const manejoCambio = () => {
+        console.log("holaaaa jaja");
+    }
 
     return(
         <>
-        <FunkosAside/>
+        <FunkosAside onChange={manejoCambio}/>
         <section className="container__shop__section">
-            {data?data.map((dato, index) => (
+            {data?data.map((dato) => (
                 // Renderiza los datos usando map()
-                <FunkosCard key={index} funko={dato}/>
+                <FunkosCard key={dato.id} funko={dato} id={dato.id}/>
             )):null}
             
         </section>

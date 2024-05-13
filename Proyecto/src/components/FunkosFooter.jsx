@@ -1,4 +1,7 @@
-export const Footer = () => {
+
+
+export const FunkosFooter = () => {
+
     return (
         <footer className="footer">
             <nav className="navbar container">

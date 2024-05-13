@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom"
-export const FunkosCard = ({funko}) =>{
+export const FunkosCard = ({funko, id}) =>{
     return (
         <article>
-            <Link to={`/shop/item/${funko.product_id}`}>
+            <Link to={{ pathname:`/shop/item/${id}`, state: { funko } }}>
                 <picture>
                     <img className="container__pr__img" src={funko.img_front} alt={funko.product_name} />
                 </picture>

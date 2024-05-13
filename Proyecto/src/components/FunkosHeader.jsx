@@ -1,4 +1,4 @@
-export const Header = () => {
+export const FunkosHeader = () => {
     return (
         <header>
             <nav className="navbar container">
