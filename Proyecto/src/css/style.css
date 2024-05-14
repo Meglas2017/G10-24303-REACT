@@ -1329,6 +1329,9 @@ input[type="number"]::-webkit-outer-spin-button {
   .container__carrito__form input {
     width: 10rem;
   }
+  .container__carrito__article img {
+    width: 5rem; /**/
+  }
 }
 /*1920*/
 @media (min-width: 1920px) {

@@ -10,7 +10,7 @@ export const FunkosCard = ({funko, id}) =>{
                 <article className="container__pr__article">
                     <p className="container__pr__p1__shop">{funko.licence_name}</p>
                     <h3 className="container__pr__h3__shop">{funko.product_name}</h3>
-                    <p className="container__pr__p2">{funko.product_price}</p>
+                    <p className="container__pr__p2">$ {funko.product_price}</p>
                     <p className="container__pr__p3">3 CUOTAS SIN INTERES</p>  
                 </article>
                 

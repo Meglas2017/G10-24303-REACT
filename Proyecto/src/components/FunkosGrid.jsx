@@ -25,7 +25,7 @@ export const FunkosGrid = () => {
                 const firulo = await getDocs(collection(bd, "funkos"));
                 const newData = firulo.docs.map(doc => ({ id: doc.id, ...doc.data() })); //Mapear para obtener el nuevo array y pasarselo a la funcion setData
                 setData(newData)
-                console.log(newData);
+                // console.log(newData);
                 
             } catch (error) {
                 console.log(error);
