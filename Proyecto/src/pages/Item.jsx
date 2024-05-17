@@ -59,7 +59,7 @@ export const Item = () =>{
         {data ? 
             <section className="container__item">
                 <picture>
-                    <img className="itemImg" src={data.img_front} alt={data.product_description} />
+                    <img className="itemImg" src={"."+data.img_front} alt={data.product_description} />
                 </picture>
                 <article className="container__article">
                     <p className="container__p1">
