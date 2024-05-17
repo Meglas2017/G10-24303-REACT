@@ -22,7 +22,7 @@ export const FunkosFooter = () => {
 
                 
                 <picture className="navbar__logo">
-                    <img src="/img/branding/isotype.svg" alt="Isotipo Funko" />
+                    <img src="./img/branding/isotype.svg" alt="Isotipo Funko" />
                 </picture>
             </nav>
 

@@ -4,7 +4,7 @@ export const FunkosHeader = () => {
             <nav className="navbar container">
                 <picture className="navbar__logo">
                     <a href="./index.html">
-                        <img src="../img/branding/logo_light_horizontal.svg" alt="Isologotipo Funko" />
+                        <img src="./img/branding/logo_light_horizontal.svg" alt="Isologotipo Funko" />
                     </a>
                 </picture>
                 <ul className="navbar__menu">
@@ -30,7 +30,7 @@ export const FunkosHeader = () => {
                     </li>
                     <li className="navbar__item">
                         <a className="navbar__cart" href="./pages/cart.html">
-                            <img src="../img/icons/cart-icon.svg" alt="Carrito" />
+                            <img src="./img/icons/cart-icon.svg" alt="Carrito" />
                         </a>
                     </li>
                 </ul>
