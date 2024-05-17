@@ -8,7 +8,7 @@ import { Cart } from "./pages/Cart"
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/G10-24303-REACT">
       <FunkosHeader/>
       <Routes>
         <Route path="/" element={<Shop />} />
