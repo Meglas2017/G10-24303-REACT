@@ -38,7 +38,7 @@ export const CartProduct = ({producto, onChanges}) => {
             <article className="container__carrito__article">
                 <Link className="container__carrito__a" to={""}>
                     <picture>
-                        <img src={data.img_front} alt={data.product_description} />
+                        <img src={"."+data.img_front} alt={data.product_description} />
                     </picture>
                     <div className="container__carrito__div">
                         <h4>{data.product_name}</h4>
