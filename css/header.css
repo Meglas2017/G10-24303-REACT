@@ -1,0 +1,154 @@
+/*HEADER*/
+header {
+  background-color: #30343f;
+  padding: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header input,
+header label {
+  display: none;
+}
+
+.navbar__logo {
+  max-width: 300px;
+}
+.navbar__logo img {
+  max-width: 300px;
+}
+
+.navbar__link {
+  color: white;
+  font-size: medium;
+  padding: 8px 16px;
+  display: inline-block;
+  transition: background 0.3s ease-in-out;
+  position: relative;
+}
+
+.navbar__link:hover {
+  background-color: rgba(255, 51, 51, 0.9);
+}
+
+.with-icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.with-submenu:hover .submenu {
+  display: block;
+}
+
+@media (min-width: 1024px) {
+  .navbar__menu {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 6;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  .navbar__menu {
+    gap: 0px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  header .submenu {
+    visibility: hidden;
+  }
+  header {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 15vh;
+    width: 100vw;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar_item .navbar_cart img {
+    width: 70%;
+  }
+
+  .navbar__logo {
+    max-width: 70%;
+  }
+
+  header nav img {
+    width: 25px;
+  }
+
+  header ul {
+    display: none;
+  }
+
+  header input:checked ~ ul {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 80px;
+    z-index: 4;
+  }
+
+  header label {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+  }
+
+  /* Estilo del boton cuando se pasa el mouse por encima*/
+  header label:hover {
+    background-color: #30343f;
+  }
+
+  /* Estilo del boton cuando el menú está expandido*/
+  header input:checked ~ label {
+    background-color: #30343f;
+  }
+
+  header ul {
+    margin-top: 0;
+    padding: 0;
+  }
+
+  header li {
+    display: block;
+    background-color: #30343f;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid grey;
+  }
+
+  /*Estilo cuando el mouse pasa encima de cada link del menu*/
+  header li:hover {
+    filter: brightness(110%);
+  }
+}
